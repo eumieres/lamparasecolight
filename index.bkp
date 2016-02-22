@@ -13,6 +13,10 @@
 
     <!-- Bootstrap core CSS -->
     <link href="styles/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/css/custom.css" rel="stylesheet">
+    <link href="styles/css/demo.css" rel="stylesheet">
+    <link href="styles/css/elastislide.css" rel="stylesheet">
+
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="styles/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -20,6 +24,9 @@
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="styles/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="styles/js/ie-emulation-modes-warning.js"></script>
+    <script src="styles/js/jquery.elastislide.js"></script>
+    <script src="styles/js/jquerypp.custom.js"></script>
+    <script src="styles/js/modernizr.custom.17475.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -61,7 +68,7 @@
                     <li><a href="#">Piso</a></li>
                   </ul>
                 </li>
-                <li class="active"><a href="#"><i class='glyphicon glyphicon-shopping-cart'></i></a></li>
+                <li><a href="#"><i class='glyphicon glyphicon-shopping-cart'></i></a></li>
               </ul>
             </div>
           </div>
@@ -105,7 +112,7 @@
           <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
+              <h1>PM.LAMPS</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
             </div>
@@ -129,10 +136,13 @@
 
     <div class="container marketing">
 
-      <!-- Three columns of text below the carousel -->
+
       <div class="row">
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+
+          <div id="adbl_page_content">
+            <div id="carousel_c8" class="carousel-container c_bare_minimum_150 c_tmp_mixed9 c_items_9" data-slotcode="c8" data-sourceasins="B01BFH8D50,B018Y9DHGC,B01BDJ4O80,B018Y9O4UA,B01AX1I2BE,B00L3…QUUHY,B01184HC7K,B00USJRWS6,B013TQV7GC,B00P0264D0,B00V8MDHT0" data-category="null" data-itemsperpage="9" data-totalpages="3" data-pageident="alatino-car-3" data-template="MIXED_9"
+          <img class="img-Rounded Corners" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
           <h2>Heading</h2>
           <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
@@ -202,6 +212,30 @@
       </footer>
 
     </div><!-- /.container -->
+    <div class="col-md-8">
+      <ul id="carousel" class="elastislide-list">
+        <li><a href="#"><img src="img/lamparas1.png" alt="image01" /></a></li>
+        <li><a href="#"><img src="images/small/2.jpg" alt="image02" /></a></li>
+        <li><a href="#"><img src="images/small/3.jpg" alt="image03" /></a></li>
+        <li><a href="#"><img src="images/small/4.jpg" alt="image04" /></a></li>
+        <li><a href="#"><img src="images/small/5.jpg" alt="image05" /></a></li>
+        <li><a href="#"><img src="images/small/6.jpg" alt="image06" /></a></li>
+        <li><a href="#"><img src="images/small/7.jpg" alt="image07" /></a></li>
+        <li><a href="#"><img src="images/small/8.jpg" alt="image08" /></a></li>
+        <li><a href="#"><img src="images/small/9.jpg" alt="image09" /></a></li>
+        <li><a href="#"><img src="images/small/10.jpg" alt="image10" /></a></li>
+        <li><a href="#"><img src="images/small/11.jpg" alt="image11" /></a></li>
+        <li><a href="#"><img src="images/small/12.jpg" alt="image12" /></a></li>
+        <li><a href="#"><img src="images/small/13.jpg" alt="image13" /></a></li>
+        <li><a href="#"><img src="images/small/14.jpg" alt="image14" /></a></li>
+        <li><a href="#"><img src="images/small/15.jpg" alt="image15" /></a></li>
+        <li><a href="#"><img src="images/small/16.jpg" alt="image16" /></a></li>
+        <li><a href="#"><img src="images/small/17.jpg" alt="image17" /></a></li>
+        <li><a href="#"><img src="images/small/18.jpg" alt="image18" /></a></li>
+        <li><a href="#"><img src="images/small/19.jpg" alt="image19" /></a></li>
+        <li><a href="#"><img src="images/small/20.jpg" alt="image20" /></a></li>
+      </ul>
+    </div>
 
 
     <!-- Bootstrap core JavaScript
