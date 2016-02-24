@@ -149,6 +149,18 @@
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
+    <div class="container demo-1">
+
+      <div class="main">
+        <header class="clearfix">
+          <h2>Lo mas vendido</h2>
+          <nav class="codrops-demos">
+            <a class="current-demo" href="index.html">Ver mas...</a>
+          </nav>
+        </header>
+
+  <!-- <...carousel...> -->
+
 
     <div class="container marketing">
       <div class="row">
@@ -179,7 +191,23 @@
   					<li><a href="#"><img src="img/small/20.jpg" alt="image20" /></a></li>
   				</ul>
         </div>
+        <nav>
+          <span class="elastislide-prev" style="display: block;">
+             Previous
+          </span>
+          <span class="elastislide-next" style="display: block;">
+             Next
+          </span>
+        </nav>
       </div>
+    </div>
+    </div>
+    </div>
+
+
+
+
+
           <div id="adbl_page_content">
             <div id="carousel_c8" class="carousel-container c_bare_minimum_150 c_tmp_mixed9 c_items_9" data-slotcode="c8" data-sourceasins="B01BFH8D50,B018Y9DHGC,B01BDJ4O80,B018Y9O4UA,B01AX1I2BE,B00L3…QUUHY,B01184HC7K,B00USJRWS6,B013TQV7GC,B00P0264D0,B00V8MDHT0" data-category="null" data-itemsperpage="9" data-totalpages="3" data-pageident="alatino-car-3" data-template="MIXED_9"
           <img class="img-Rounded Corners" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">

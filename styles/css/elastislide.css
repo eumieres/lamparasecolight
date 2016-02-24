@@ -22,7 +22,7 @@
 }
 
 .elastislide-wrapper.elastislide-loading {
-	background-image: url(../img/loading.gif);
+	background-image: url( home/juanc/lamparasecolight/img/loading.gif);
 	background-repeat: no-repeat;
 	background-position: center center;
 }
@@ -88,7 +88,7 @@
 
 .elastislide-wrapper nav span {
 	position: absolute;
-	background: #ddd url(.../img/nav.png) no-repeat 4px 3px;
+	background: #ddd url( /home/juanc/lamparasecolight/img/nav.png) no-repeat 4px 3px;
 	width: 23px;
 	height: 23px;
 	border-radius: 50%;
