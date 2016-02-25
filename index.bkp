@@ -24,26 +24,7 @@
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="styles/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="styles/js/ie-emulation-modes-warning.js"></script>
-    <script src="styles/js/ie-emulation-bug-workaround.js"></script>
-    <script src="styles/js/vendor/anchor.js"></script>
-    <script src="styles/js/vendor/autoprefixer.js"></script>
-    <script src="styles/js/vendor/Blob.js"></script>
-    <script src="styles/js/vendor/FileSaver.js"></script>
-    <script src="styles/js/vendor/holder.min.js"></script>
-    <script src="styles/js/vendor/jquery,min.js"></script>
-    <script src="styles/js/vendor/jszip,min.js"></script>
-    <script src="styles/js/vendor/less.min.js"></script>
-    <script src="styles/js/vendor/uglify.min.js"></script>
-    <script src="styles/js/vendor/ZeroClipboard.min.js"></script>
-    <script src="styles/js/modernizr.custom.17475.js"></script>
-    <script type="styles/javascript" src="styles/js/jquerypp.custom.js"></script>
-		<script type="styles/javascript" src="styles/js/jquery.elastislide.js"></script>
-		<script type="styles/javascript">
 
-			$( '#carousel' ).elastislide();
-
-		</script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -77,7 +58,7 @@
                 <li class="active"><a href="#">Inicio</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categoria <span class="caret"></span></a>
+                  <a href="categorias.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categoria <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <li><a href="#">Colgante</a></li>
                     <li><a href="#">Mesa</a></li>
@@ -94,7 +75,7 @@
     </div>
 
 
-    <!-- Carousel
+    <!-- Carousel CENTRAL
     ================================================== -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
@@ -143,19 +124,17 @@
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
-    </div><!-- /.carousel -->
+    </div><!-- /.carousel CENTRAL -->
 
 
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
+    <!-- COMIENZO DE PRIMER carousel-->
     <div class="container demo-1">
 
       <div class="main">
         <header class="clearfix">
           <h2>Lo mas vendido</h2>
           <nav class="codrops-demos">
-            <a class="current-demo" href="index.html">Ver mas...</a>
+            <a class="current-demo" href="categorias.html">Ver mas...</a>
           </nav>
         </header>
 
@@ -169,7 +148,7 @@
         <div class="elastislide-wrapper elastislide-horizontal">
           <div class="elastislide-carousel">
           <ul id="carousel" class="elastislide-list">
-  					<li><a href="#"><img src="img/small/1.jpg" alt="image01" /></a></li>
+  					<li><a href="#"><img src="img/small/21.jpg" alt="image01" /></a></li>
   					<li><a href="#"><img src="img/small/2.jpg" alt="image02" /></a></li>
   					<li><a href="#"><img src="img/small/3.jpg" alt="image03" /></a></li>
   					<li><a href="#"><img src="img/small/4.jpg" alt="image04" /></a></li>
@@ -204,73 +183,183 @@
     </div>
     </div>
 
+    <!-- < COMIENZO DEL SEGUNDO CAROUSEL...> -->
+
+    <div class="container demo-1">
+
+      <div class="main">
+        <header class="clearfix">
+          <h2>Colgantes</h2>
+          <nav class="codrops-demos">
+            <a class="current-demo" href="index.html1.2">Ver mas...</a>
+          </nav>
+        </header>
+
+  <!-- <...carousel...> -->
 
 
-
-
-          <div id="adbl_page_content">
-            <div id="carousel_c8" class="carousel-container c_bare_minimum_150 c_tmp_mixed9 c_items_9" data-slotcode="c8" data-sourceasins="B01BFH8D50,B018Y9DHGC,B01BDJ4O80,B018Y9O4UA,B01AX1I2BE,B00L3…QUUHY,B01184HC7K,B00USJRWS6,B013TQV7GC,B00P0264D0,B00V8MDHT0" data-category="null" data-itemsperpage="9" data-totalpages="3" data-pageident="alatino-car-3" data-template="MIXED_9"
-          <img class="img-Rounded Corners" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-
-
-      <!-- START THE FEATURETTES -->
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
+    <div class="container marketing">
+      <div class="row">
       </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      <!-- <container> -->
+        <div class="elastislide-wrapper elastislide-horizontal">
+          <div class="elastislide-carousel">
+          <ul id="carousel" class="elastislide-list">
+            <li><a href="#"><img src="img/small/21.jpg" alt="image01" /></a></li>
+            <li><a href="#"><img src="img/small/2.jpg" alt="image02" /></a></li>
+            <li><a href="#"><img src="img/small/3.jpg" alt="image03" /></a></li>
+            <li><a href="#"><img src="img/small/4.jpg" alt="image04" /></a></li>
+            <li><a href="#"><img src="img/small/5.jpg" alt="image05" /></a></li>
+            <li><a href="#"><img src="img/small/6.jpg" alt="image06" /></a></li>
+            <li><a href="#"><img src="img/small/7.jpg" alt="image07" /></a></li>
+            <li><a href="#"><img src="img/small/8.jpg" alt="image08" /></a></li>
+            <li><a href="#"><img src="img/small/9.jpg" alt="image09" /></a></li>
+            <li><a href="#"><img src="img/small/10.jpg" alt="image10" /></a></li>
+            <li><a href="#"><img src="img/small/11.jpg" alt="image11" /></a></li>
+            <li><a href="#"><img src="img/small/12.jpg" alt="image12" /></a></li>
+            <li><a href="#"><img src="img/small/13.jpg" alt="image13" /></a></li>
+            <li><a href="#"><img src="img/small/14.jpg" alt="image14" /></a></li>
+            <li><a href="#"><img src="img/small/15.jpg" alt="image15" /></a></li>
+            <li><a href="#"><img src="img/small/16.jpg" alt="image16" /></a></li>
+            <li><a href="#"><img src="img/small/17.jpg" alt="image17" /></a></li>
+            <li><a href="#"><img src="img/small/18.jpg" alt="image18" /></a></li>
+            <li><a href="#"><img src="img/small/19.jpg" alt="image19" /></a></li>
+            <li><a href="#"><img src="img/small/20.jpg" alt="image20" /></a></li>
+          </ul>
         </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
+        <nav>
+          <span class="elastislide-prev" style="display: block;">
+             Previous
+          </span>
+          <span class="elastislide-next" style="display: block;">
+             Next
+          </span>
+        </nav>
       </div>
+    </div>
+    </div>
+    </div>
 
-      <hr class="featurette-divider">
+    <!-- < COMIENZO DEL TERCER carousel> -->
 
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
+    <div class="container demo-1">
+
+      <div class="main">
+        <header class="clearfix">
+          <h2>Mesa</h2>
+          <nav class="codrops-demos">
+            <a class="current-demo" href="index.html1.2">Ver mas...</a>
+          </nav>
+        </header>
+
+  <!-- <...carousel...> -->
+
+
+    <div class="container marketing">
+      <div class="row">
       </div>
+      <!-- <container> -->
+        <div class="elastislide-wrapper elastislide-horizontal">
+          <div class="elastislide-carousel">
+          <ul id="carousel" class="elastislide-list">
+  					<li><a href="#"><img src="img/small/21.jpg" alt="image01" /></a></li>
+  					<li><a href="#"><img src="img/small/2.jpg" alt="image02" /></a></li>
+  					<li><a href="#"><img src="img/small/3.jpg" alt="image03" /></a></li>
+  					<li><a href="#"><img src="img/small/4.jpg" alt="image04" /></a></li>
+  					<li><a href="#"><img src="img/small/5.jpg" alt="image05" /></a></li>
+  					<li><a href="#"><img src="img/small/6.jpg" alt="image06" /></a></li>
+  					<li><a href="#"><img src="img/small/7.jpg" alt="image07" /></a></li>
+  					<li><a href="#"><img src="img/small/8.jpg" alt="image08" /></a></li>
+  					<li><a href="#"><img src="img/small/9.jpg" alt="image09" /></a></li>
+  					<li><a href="#"><img src="img/small/10.jpg" alt="image10" /></a></li>
+  					<li><a href="#"><img src="img/small/11.jpg" alt="image11" /></a></li>
+  					<li><a href="#"><img src="img/small/12.jpg" alt="image12" /></a></li>
+  					<li><a href="#"><img src="img/small/13.jpg" alt="image13" /></a></li>
+  					<li><a href="#"><img src="img/small/14.jpg" alt="image14" /></a></li>
+  					<li><a href="#"><img src="img/small/15.jpg" alt="image15" /></a></li>
+  					<li><a href="#"><img src="img/small/16.jpg" alt="image16" /></a></li>
+  					<li><a href="#"><img src="img/small/17.jpg" alt="image17" /></a></li>
+  					<li><a href="#"><img src="img/small/18.jpg" alt="image18" /></a></li>
+  					<li><a href="#"><img src="img/small/19.jpg" alt="image19" /></a></li>
+  					<li><a href="#"><img src="img/small/20.jpg" alt="image20" /></a></li>
+  				</ul>
+        </div>
+        <nav>
+          <span class="elastislide-prev" style="display: block;">
+             Previous
+          </span>
+          <span class="elastislide-next" style="display: block;">
+             Next
+          </span>
+        </nav>
+      </div>
+    </div>
+    </div>
+    </div>
 
+    <!-- < COMIENZO DEL CUARTO carousel> -->
+
+    <div class="container demo-1">
+
+      <div class="main">
+        <header class="clearfix">
+          <h2>Piso</h2>
+          <nav class="codrops-demos">
+            <a class="current-demo" href="index.html1.2">Ver mas...</a>
+          </nav>
+        </header>
+
+  <!-- <...carousel...> -->
+
+
+    <div class="container marketing">
+      <div class="row">
+      </div>
+      <!-- <container> -->
+        <div class="elastislide-wrapper elastislide-horizontal">
+          <div class="elastislide-carousel">
+          <ul id="carousel" class="elastislide-list">
+  					<li><a href="#"><img src="img/small/21.jpg" alt="image01" /></a></li>
+  					<li><a href="#"><img src="img/small/2.jpg" alt="image02" /></a></li>
+  					<li><a href="#"><img src="img/small/3.jpg" alt="image03" /></a></li>
+  					<li><a href="#"><img src="img/small/4.jpg" alt="image04" /></a></li>
+  					<li><a href="#"><img src="img/small/5.jpg" alt="image05" /></a></li>
+  					<li><a href="#"><img src="img/small/6.jpg" alt="image06" /></a></li>
+  					<li><a href="#"><img src="img/small/7.jpg" alt="image07" /></a></li>
+  					<li><a href="#"><img src="img/small/8.jpg" alt="image08" /></a></li>
+  					<li><a href="#"><img src="img/small/9.jpg" alt="image09" /></a></li>
+  					<li><a href="#"><img src="img/small/10.jpg" alt="image10" /></a></li>
+  					<li><a href="#"><img src="img/small/11.jpg" alt="image11" /></a></li>
+  					<li><a href="#"><img src="img/small/12.jpg" alt="image12" /></a></li>
+  					<li><a href="#"><img src="img/small/13.jpg" alt="image13" /></a></li>
+  					<li><a href="#"><img src="img/small/14.jpg" alt="image14" /></a></li>
+  					<li><a href="#"><img src="img/small/15.jpg" alt="image15" /></a></li>
+  					<li><a href="#"><img src="img/small/16.jpg" alt="image16" /></a></li>
+  					<li><a href="#"><img src="img/small/17.jpg" alt="image17" /></a></li>
+  					<li><a href="#"><img src="img/small/18.jpg" alt="image18" /></a></li>
+  					<li><a href="#"><img src="img/small/19.jpg" alt="image19" /></a></li>
+  					<li><a href="#"><img src="img/small/20.jpg" alt="image20" /></a></li>
+  				</ul>
+        </div>
+        <nav>
+          <span class="elastislide-prev" style="display: block;">
+             Previous
+          </span>
+          <span class="elastislide-next" style="display: block;">
+             Next
+          </span>
+        </nav>
+      </div>
+    </div>
+    </div>
+    </div>
+    <!-- <FIN DE LOS carousel> -->
+
+
+<!-- < SEPARACION DEL ENCABEZADO > -->
       <hr class="featurette-divider">
 
-      <!-- /END THE FEATURETTES -->
+      <!-- INICIO DE LA ESCRITURA DE FONDO -->
 
 
       <!-- FOOTER -->
@@ -283,12 +372,32 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="styles/js/vendor/jquery.min.js"><\/script>')</script>
+
+    <script>window.jQuery || document.write('<script src="styles/js/vendor/jquery.min.js"></script>')</script>
     <script src="styles/js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="styles/js/vendor/holder.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="styles/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="styles/js/ie-emulation-modes-warning.js"></script>
+    <script src="styles/js/ie-emulation-bug-workaround.js"></script>
+    <script src="styles/js/vendor/anchor.js"></script>
+    <script src="styles/js/vendor/autoprefixer.js"></script>
+    <script src="styles/js/vendor/Blob.js"></script>
+    <script src="styles/js/vendor/FileSaver.js"></script>
+    <script src="styles/js/vendor/holder.min.js"></script>
+    <script src="styles/js/vendor/jszip,min.js"></script>
+    <script src="styles/js/vendor/less.min.js"></script>
+    <script src="styles/js/vendor/uglify.min.js"></script>
+    <script src="styles/js/vendor/ZeroClipboard.min.js"></script>
+    <script src="styles/js/modernizr.custom.17475.js"></script>
+    	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script type="styles/javascript" src="styles/js/jquerypp.custom.js"></script>
+    <script type="styles/javascript" src="styles/js/jquery.elastislide.js"></script>
+    <script type="styles/javascript">
+
+      $( '#carousel' ).elastislide();
+
+    </script>
   </body>
 </html>
