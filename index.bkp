@@ -19,6 +19,7 @@
     <link href="styles/css/custom.css" rel="stylesheet">
     <link href="styles/css/demo.css" rel="stylesheet">
     <link href="styles/css/elastislide.css" rel="stylesheet">
+      <link href="styles/css/carousel.css" rel="stylesheet">
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="styles/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
@@ -129,7 +130,8 @@
 
     <!-- COMIENZO DE PRIMER carousel-->
     <div class="container demo-1">
-
+      <div class="container marketing">
+    <div class="row">
       <div class="main">
         <header class="clearfix">
           <h2>Lo mas vendido</h2>
@@ -138,54 +140,50 @@
           </nav>
         </header>
 
-  <!-- <...carousel...> -->
+          <div class="row">
+          </div>
 
-
-    <div class="container marketing">
-      <div class="row">
-      </div>
-      <!-- <container> -->
-        <div class="elastislide-wrapper elastislide-horizontal">
-          <div class="elastislide-carousel">
-          <ul id="carousel" class="elastislide-list">
-  					<li><a href="#"><img src="img/small/21.jpg" alt="image01" /></a></li>
-  					<li><a href="#"><img src="img/small/2.jpg" alt="image02" /></a></li>
-  					<li><a href="#"><img src="img/small/3.jpg" alt="image03" /></a></li>
-  					<li><a href="#"><img src="img/small/4.jpg" alt="image04" /></a></li>
-  					<li><a href="#"><img src="img/small/5.jpg" alt="image05" /></a></li>
-  					<li><a href="#"><img src="img/small/6.jpg" alt="image06" /></a></li>
-  					<li><a href="#"><img src="img/small/7.jpg" alt="image07" /></a></li>
-  					<li><a href="#"><img src="img/small/8.jpg" alt="image08" /></a></li>
-  					<li><a href="#"><img src="img/small/9.jpg" alt="image09" /></a></li>
-  					<li><a href="#"><img src="img/small/10.jpg" alt="image10" /></a></li>
-  					<li><a href="#"><img src="img/small/11.jpg" alt="image11" /></a></li>
-  					<li><a href="#"><img src="img/small/12.jpg" alt="image12" /></a></li>
-  					<li><a href="#"><img src="img/small/13.jpg" alt="image13" /></a></li>
-  					<li><a href="#"><img src="img/small/14.jpg" alt="image14" /></a></li>
-  					<li><a href="#"><img src="img/small/15.jpg" alt="image15" /></a></li>
-  					<li><a href="#"><img src="img/small/16.jpg" alt="image16" /></a></li>
-  					<li><a href="#"><img src="img/small/17.jpg" alt="image17" /></a></li>
-  					<li><a href="#"><img src="img/small/18.jpg" alt="image18" /></a></li>
-  					<li><a href="#"><img src="img/small/19.jpg" alt="image19" /></a></li>
-  					<li><a href="#"><img src="img/small/20.jpg" alt="image20" /></a></li>
-  				</ul>
+          <div class="elastislide-wrapper elastislide-horizontal">
+            <div class="elastislide-carousel">
+              <ul id="carousel" class="elastislide-list">
+                <li><a href="#"><img src="img/small/21.jpg" alt="image01" /></a></li>
+                <li><a href="#"><img src="img/small/2.jpg" alt="image02" /></a></li>
+                <li><a href="#"><img src="img/small/3.jpg" alt="image03" /></a></li>
+                <li><a href="#"><img src="img/small/4.jpg" alt="image04" /></a></li>
+                <li><a href="#"><img src="img/small/5.jpg" alt="image05" /></a></li>
+                <li><a href="#"><img src="img/small/6.jpg" alt="image06" /></a></li>
+                <li><a href="#"><img src="img/small/7.jpg" alt="image07" /></a></li>
+                <li><a href="#"><img src="img/small/8.jpg" alt="image08" /></a></li>
+                <li><a href="#"><img src="img/small/9.jpg" alt="image09" /></a></li>
+                <li><a href="#"><img src="img/small/10.jpg" alt="image10" /></a></li>
+                <li><a href="#"><img src="img/small/11.jpg" alt="image11" /></a></li>
+                <li><a href="#"><img src="img/small/12.jpg" alt="image12" /></a></li>
+                <li><a href="#"><img src="img/small/13.jpg" alt="image13" /></a></li>
+                <li><a href="#"><img src="img/small/14.jpg" alt="image14" /></a></li>
+                <li><a href="#"><img src="img/small/15.jpg" alt="image15" /></a></li>
+                <li><a href="#"><img src="img/small/16.jpg" alt="image16" /></a></li>
+                <li><a href="#"><img src="img/small/17.jpg" alt="image17" /></a></li>
+                <li><a href="#"><img src="img/small/18.jpg" alt="image18" /></a></li>
+                <li><a href="#"><img src="img/small/19.jpg" alt="image19" /></a></li>
+                <li><a href="#"><img src="img/small/20.jpg" alt="image20" /></a></li>
+              </ul>
+            </div>
+            <nav>
+              <span class="elastislide-prev" style="display: block;">
+                Previous
+              </span>
+              <span class="elastislide-next" style="display: block;">
+                Next
+              </span>
+            </nav>
+          </div>
         </div>
-        <nav>
-          <span class="elastislide-prev" style="display: block;">
-             Previous
-          </span>
-          <span class="elastislide-next" style="display: block;">
-             Next
-          </span>
-        </nav>
       </div>
-    </div>
-    </div>
     </div>
 
     <!-- < COMIENZO DEL SEGUNDO CAROUSEL...> -->
 
-    <div class="container demo-1">
+    <div class="container marketing">
 
       <div class="main">
         <header class="clearfix">
@@ -195,15 +193,119 @@
           </nav>
         </header>
 
-  <!-- <...carousel...> -->
+        <div class="row">
+        </div>
 
-
-    <div class="container marketing">
-      <div class="row">
-      </div>
-      <!-- <container> -->
         <div class="elastislide-wrapper elastislide-horizontal">
           <div class="elastislide-carousel">
+            <ul id="carousel" class="elastislide-list">
+              <li><a href="#"><img src="img/small/21.jpg" alt="image01" /></a></li>
+              <li><a href="#"><img src="img/small/2.jpg" alt="image02" /></a></li>
+              <li><a href="#"><img src="img/small/3.jpg" alt="image03" /></a></li>
+              <li><a href="#"><img src="img/small/4.jpg" alt="image04" /></a></li>
+              <li><a href="#"><img src="img/small/5.jpg" alt="image05" /></a></li>
+              <li><a href="#"><img src="img/small/6.jpg" alt="image06" /></a></li>
+              <li><a href="#"><img src="img/small/7.jpg" alt="image07" /></a></li>
+              <li><a href="#"><img src="img/small/8.jpg" alt="image08" /></a></li>
+              <li><a href="#"><img src="img/small/9.jpg" alt="image09" /></a></li>
+              <li><a href="#"><img src="img/small/10.jpg" alt="image10" /></a></li>
+              <li><a href="#"><img src="img/small/11.jpg" alt="image11" /></a></li>
+              <li><a href="#"><img src="img/small/12.jpg" alt="image12" /></a></li>
+              <li><a href="#"><img src="img/small/13.jpg" alt="image13" /></a></li>
+              <li><a href="#"><img src="img/small/14.jpg" alt="image14" /></a></li>
+              <li><a href="#"><img src="img/small/15.jpg" alt="image15" /></a></li>
+              <li><a href="#"><img src="img/small/16.jpg" alt="image16" /></a></li>
+              <li><a href="#"><img src="img/small/17.jpg" alt="image17" /></a></li>
+              <li><a href="#"><img src="img/small/18.jpg" alt="image18" /></a></li>
+              <li><a href="#"><img src="img/small/19.jpg" alt="image19" /></a></li>
+              <li><a href="#"><img src="img/small/20.jpg" alt="image20" /></a></li>
+            </ul>
+          </div>
+          <nav>
+            <span class="elastislide-prev" style="display: block;">
+              Previous
+            </span>
+            <span class="elastislide-next" style="display: block;">
+              Next
+            </span>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+  <!-- < COMIENZO DEL TERCER carousel> -->
+
+
+  <div class="container marketing">
+
+  <div class="main">
+    <header class="clearfix">
+      <h2>Mesa</h2>
+      <nav class="codrops-demos">
+        <a class="current-demo" href="index.html1.2">Ver mas...</a>
+      </nav>
+    </header>
+
+    <div class="row">
+    </div>
+
+    <div class="elastislide-wrapper elastislide-horizontal">
+      <div class="elastislide-carousel">
+        <ul id="carousel" class="elastislide-list">
+          <li><a href="#"><img src="img/small/21.jpg" alt="image01" /></a></li>
+          <li><a href="#"><img src="img/small/2.jpg" alt="image02" /></a></li>
+          <li><a href="#"><img src="img/small/3.jpg" alt="image03" /></a></li>
+          <li><a href="#"><img src="img/small/4.jpg" alt="image04" /></a></li>
+          <li><a href="#"><img src="img/small/5.jpg" alt="image05" /></a></li>
+          <li><a href="#"><img src="img/small/6.jpg" alt="image06" /></a></li>
+          <li><a href="#"><img src="img/small/7.jpg" alt="image07" /></a></li>
+          <li><a href="#"><img src="img/small/8.jpg" alt="image08" /></a></li>
+          <li><a href="#"><img src="img/small/9.jpg" alt="image09" /></a></li>
+          <li><a href="#"><img src="img/small/10.jpg" alt="image10" /></a></li>
+          <li><a href="#"><img src="img/small/11.jpg" alt="image11" /></a></li>
+          <li><a href="#"><img src="img/small/12.jpg" alt="image12" /></a></li>
+          <li><a href="#"><img src="img/small/13.jpg" alt="image13" /></a></li>
+          <li><a href="#"><img src="img/small/14.jpg" alt="image14" /></a></li>
+          <li><a href="#"><img src="img/small/15.jpg" alt="image15" /></a></li>
+          <li><a href="#"><img src="img/small/16.jpg" alt="image16" /></a></li>
+          <li><a href="#"><img src="img/small/17.jpg" alt="image17" /></a></li>
+          <li><a href="#"><img src="img/small/18.jpg" alt="image18" /></a></li>
+          <li><a href="#"><img src="img/small/19.jpg" alt="image19" /></a></li>
+          <li><a href="#"><img src="img/small/20.jpg" alt="image20" /></a></li>
+        </ul>
+      </div>
+      <nav>
+        <span class="elastislide-prev" style="display: block;">
+          Previous
+        </span>
+        <span class="elastislide-next" style="display: block;">
+          Next
+        </span>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- < COMIENZO DEL CUARTO carousel> -->
+
+
+<div class="container marketing">
+
+  <div class="main">
+    <header class="clearfix">
+      <h2>Piso</h2>
+      <nav class="codrops-demos">
+        <a class="current-demo" href="index.html1.2">Ver mas...</a>
+      </nav>
+    </header>
+
+      <div class="row">
+      </div>
+
+      <div class="elastislide-wrapper elastislide-horizontal">
+        <div class="elastislide-carousel">
           <ul id="carousel" class="elastislide-list">
             <li><a href="#"><img src="img/small/21.jpg" alt="image01" /></a></li>
             <li><a href="#"><img src="img/small/2.jpg" alt="image02" /></a></li>
@@ -229,131 +331,27 @@
         </div>
         <nav>
           <span class="elastislide-prev" style="display: block;">
-             Previous
+            Previous
           </span>
           <span class="elastislide-next" style="display: block;">
-             Next
+            Next
           </span>
         </nav>
       </div>
     </div>
-    </div>
-    </div>
-
-    <!-- < COMIENZO DEL TERCER carousel> -->
-
-    <div class="container demo-1">
-
-      <div class="main">
-        <header class="clearfix">
-          <h2>Mesa</h2>
-          <nav class="codrops-demos">
-            <a class="current-demo" href="index.html1.2">Ver mas...</a>
-          </nav>
-        </header>
-
-  <!-- <...carousel...> -->
+  </div>
+</div>
+<!-- <FIN DE LOS carousel> -->
 
 
-    <div class="container marketing">
-      <div class="row">
-      </div>
-      <!-- <container> -->
-        <div class="elastislide-wrapper elastislide-horizontal">
-          <div class="elastislide-carousel">
-          <ul id="carousel" class="elastislide-list">
-  					<li><a href="#"><img src="img/small/21.jpg" alt="image01" /></a></li>
-  					<li><a href="#"><img src="img/small/2.jpg" alt="image02" /></a></li>
-  					<li><a href="#"><img src="img/small/3.jpg" alt="image03" /></a></li>
-  					<li><a href="#"><img src="img/small/4.jpg" alt="image04" /></a></li>
-  					<li><a href="#"><img src="img/small/5.jpg" alt="image05" /></a></li>
-  					<li><a href="#"><img src="img/small/6.jpg" alt="image06" /></a></li>
-  					<li><a href="#"><img src="img/small/7.jpg" alt="image07" /></a></li>
-  					<li><a href="#"><img src="img/small/8.jpg" alt="image08" /></a></li>
-  					<li><a href="#"><img src="img/small/9.jpg" alt="image09" /></a></li>
-  					<li><a href="#"><img src="img/small/10.jpg" alt="image10" /></a></li>
-  					<li><a href="#"><img src="img/small/11.jpg" alt="image11" /></a></li>
-  					<li><a href="#"><img src="img/small/12.jpg" alt="image12" /></a></li>
-  					<li><a href="#"><img src="img/small/13.jpg" alt="image13" /></a></li>
-  					<li><a href="#"><img src="img/small/14.jpg" alt="image14" /></a></li>
-  					<li><a href="#"><img src="img/small/15.jpg" alt="image15" /></a></li>
-  					<li><a href="#"><img src="img/small/16.jpg" alt="image16" /></a></li>
-  					<li><a href="#"><img src="img/small/17.jpg" alt="image17" /></a></li>
-  					<li><a href="#"><img src="img/small/18.jpg" alt="image18" /></a></li>
-  					<li><a href="#"><img src="img/small/19.jpg" alt="image19" /></a></li>
-  					<li><a href="#"><img src="img/small/20.jpg" alt="image20" /></a></li>
-  				</ul>
-        </div>
-        <nav>
-          <span class="elastislide-prev" style="display: block;">
-             Previous
-          </span>
-          <span class="elastislide-next" style="display: block;">
-             Next
-          </span>
-        </nav>
-      </div>
-    </div>
-    </div>
-    </div>
-
-    <!-- < COMIENZO DEL CUARTO carousel> -->
-
-    <div class="container demo-1">
-
-      <div class="main">
-        <header class="clearfix">
-          <h2>Piso</h2>
-          <nav class="codrops-demos">
-            <a class="current-demo" href="index.html1.2">Ver mas...</a>
-          </nav>
-        </header>
-
-  <!-- <...carousel...> -->
 
 
-    <div class="container marketing">
-      <div class="row">
-      </div>
-      <!-- <container> -->
-        <div class="elastislide-wrapper elastislide-horizontal">
-          <div class="elastislide-carousel">
-          <ul id="carousel" class="elastislide-list">
-  					<li><a href="#"><img src="img/small/21.jpg" alt="image01" /></a></li>
-  					<li><a href="#"><img src="img/small/2.jpg" alt="image02" /></a></li>
-  					<li><a href="#"><img src="img/small/3.jpg" alt="image03" /></a></li>
-  					<li><a href="#"><img src="img/small/4.jpg" alt="image04" /></a></li>
-  					<li><a href="#"><img src="img/small/5.jpg" alt="image05" /></a></li>
-  					<li><a href="#"><img src="img/small/6.jpg" alt="image06" /></a></li>
-  					<li><a href="#"><img src="img/small/7.jpg" alt="image07" /></a></li>
-  					<li><a href="#"><img src="img/small/8.jpg" alt="image08" /></a></li>
-  					<li><a href="#"><img src="img/small/9.jpg" alt="image09" /></a></li>
-  					<li><a href="#"><img src="img/small/10.jpg" alt="image10" /></a></li>
-  					<li><a href="#"><img src="img/small/11.jpg" alt="image11" /></a></li>
-  					<li><a href="#"><img src="img/small/12.jpg" alt="image12" /></a></li>
-  					<li><a href="#"><img src="img/small/13.jpg" alt="image13" /></a></li>
-  					<li><a href="#"><img src="img/small/14.jpg" alt="image14" /></a></li>
-  					<li><a href="#"><img src="img/small/15.jpg" alt="image15" /></a></li>
-  					<li><a href="#"><img src="img/small/16.jpg" alt="image16" /></a></li>
-  					<li><a href="#"><img src="img/small/17.jpg" alt="image17" /></a></li>
-  					<li><a href="#"><img src="img/small/18.jpg" alt="image18" /></a></li>
-  					<li><a href="#"><img src="img/small/19.jpg" alt="image19" /></a></li>
-  					<li><a href="#"><img src="img/small/20.jpg" alt="image20" /></a></li>
-  				</ul>
-        </div>
-        <nav>
-          <span class="elastislide-prev" style="display: block;">
-             Previous
-          </span>
-          <span class="elastislide-next" style="display: block;">
-             Next
-          </span>
-        </nav>
-      </div>
-    </div>
-    </div>
-    </div>
-    <!-- <FIN DE LOS carousel> -->
+
+
+
+
+
+
 
 
 <!-- < SEPARACION DEL ENCABEZADO > -->
